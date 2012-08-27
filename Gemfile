@@ -7,6 +7,8 @@ gem 'rails', '3.2.8'
 
 gem 'pg'
 
+gem "wicked_pdf"
+gem "wkhtmltopdf-heroku", :git => 'git://github.com/camdez/wkhtmltopdf-heroku.git'
 
 # Gems used only for assets and not required
 # in production environments by default.
