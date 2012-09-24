@@ -1,4 +1,8 @@
 Registration::Application.routes.draw do
+  resources :parents
+
+  resources :racers
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
