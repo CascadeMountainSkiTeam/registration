@@ -5,7 +5,12 @@ gem 'rails', '3.2.8'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+group :development do
+  gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
+end
 
 gem "wicked_pdf"
 gem "wkhtmltopdf-heroku", :git => 'git://github.com/camdez/wkhtmltopdf-heroku.git'
